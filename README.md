@@ -7,3 +7,11 @@
    1. [Tutorial from Raywenderlich](https://www.raywenderlich.com/162311/adaptive-layout-tutorial-ios-11-getting-started)
    1. [Shorter tutorial StackView from HackerNoon](https://www.raywenderlich.com/162311/adaptive-layout-tutorial-ios-11-getting-started)
    
+   Terms:
+      ###### Xcode tools
+      * Interface Builder 
+      * Asset Cataglogs
+      ###### UIKit functions 
+      * Auto Layout
+      * UITraitCollection
+      * Dynamic Type
