@@ -8,16 +8,16 @@
    1. [Shorter tutorial StackView from HackerNoon](https://www.raywenderlich.com/162311/adaptive-layout-tutorial-ios-11-getting-started)
    
    #### Xcode tools
-      * Interface Builder 
-      * Asset Cataglogs
+      * `Interface Builder `
+      * `Asset Cataglogs`
          - Slicing (nine patch strecth image)
          - Aligment Insets (crop image)
    #### UIKit functions 
-      * Auto Layout
-      * UITraitCollection
-      * Dynamic Type
-      * Layout Guides
+      * `Auto Layout`
+      * `UITraitCollection`
+      * `Dynamic Type`
+      * `Layout Guides`
          - Layout margin: `UIView`'s property to recommend margin inside that `UIView`
          - Read Content size: UIView's property to recommend margin for text inside that `UIView` (define length of a text line)
-      * UIAppearance
-         - Change all `TabBar`, `NavigationBar` ... appearance for all cases or for specific Trait Collection
+      * `UIAppearance`
+         - Change all `TabBar`, `NavigationBar` ... appearance for all cases or for specific `TraitCollection`
