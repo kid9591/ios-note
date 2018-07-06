@@ -10,6 +10,8 @@
    #### Xcode tools
       * Interface Builder 
       * Asset Cataglogs
+         * Slicing (nine patch strecth image)
+         * Aligment Insets (crop image)
    #### UIKit functions 
       * Auto Layout
       * UITraitCollection
