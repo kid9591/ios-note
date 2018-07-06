@@ -8,7 +8,7 @@
    1. [Shorter tutorial StackView from HackerNoon](https://www.raywenderlich.com/162311/adaptive-layout-tutorial-ios-11-getting-started)
    
    #### Xcode tools
-      * `Interface Builder `
+      * `Interface Builder`
       * `Asset Cataglogs`
          - Slicing (nine patch strecth image)
          - Aligment Insets (crop image)
