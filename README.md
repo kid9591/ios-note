@@ -27,3 +27,9 @@
 * `viewDidLoad`: one time only happened, should init things the same
 * `viewWillLayoutSubViews`: called mutiple times, when view added to superview, size, trait... are ready. Do set up for mulple screens here
 * `viewWillTransition`: called when screen change size, rotation...
+
+### 2. Asynchronous programming
+
+#### PromiseKit
+* [Repository](https://github.com/mxcl/PromiseKit)
+* [Tutorial from Raywenderlich](https://www.raywenderlich.com/145683/getting-started-promises-promisekit)
