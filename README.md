@@ -14,3 +14,5 @@
       * Auto Layout
       * UITraitCollection
       * Dynamic Type
+      * Layout Guides
+      * UIAppearance
