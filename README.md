@@ -31,5 +31,5 @@
 ### 2. Asynchronous programming
 
 #### PromiseKit
-* [Repository](https://github.com/mxcl/PromiseKit)
+* [Github](https://github.com/mxcl/PromiseKit)
 * [Tutorial from Raywenderlich](https://www.raywenderlich.com/145683/getting-started-promises-promisekit)
