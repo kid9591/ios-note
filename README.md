@@ -21,3 +21,8 @@
          - Read Content size: UIView's property to recommend margin for text inside that `UIView` (define length of a text line)
       * `UIAppearance`
          - Change all `TabBar`, `NavigationBar` ... appearance for all cases or for specific `TraitCollection`
+
+   #### Notes
+      * `viewDidLoad`: one time only happened, should init things the same
+      * `viewWillLayoutSubViews`: called mutiple times, when view added to superview, size, trait... are ready. Do set up for mulple screens here
+      * `viewWillTransition`: called when screen change size, rotation...
