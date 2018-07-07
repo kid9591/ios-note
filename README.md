@@ -18,10 +18,10 @@
 * `UITraitCollection`
 * `Dynamic Type`
 * `Layout Guides`
- - Layout margin: `UIView`'s property to recommend margin inside that `UIView`
- - Read Content size: UIView's property to recommend margin for text inside that `UIView` (define length of a text line)
+  *  Layout margin: `UIView`'s property to recommend margin inside that `UIView`
+  * Read Content size: UIView's property to recommend margin for text inside that `UIView` (define length of a text line)
 * `UIAppearance`
- - Change all `TabBar`, `NavigationBar` ... appearance for all cases or for specific `TraitCollection`
+  * Change all `TabBar`, `NavigationBar` ... appearance for all cases or for specific `TraitCollection`
 
 #### Notes
 * `viewDidLoad`: one time only happened, should init things the same
