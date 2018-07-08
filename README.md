@@ -33,3 +33,32 @@
 #### PromiseKit
 * [Github](https://github.com/mxcl/PromiseKit)
 * [Tutorial from Raywenderlich](https://www.raywenderlich.com/145683/getting-started-promises-promisekit)
+
+* Make `Promise` with `fullfil` or `reject`
+* No `closure (nested closure)`, PromiseKit return `Promise` object wrapper with `then` `done` `finally` `ensure` `catch`
+##### Example
+Without PromiseKit
+`
+login { creds, error in
+    if let creds = creds {
+        fetch(avatar: creds.user) { image, error in
+            if let image = image {
+                self.imageView = image
+            }
+        }
+    }
+}
+`
+
+With PromiseKit
+`
+login().then { creds in
+    fetch(avatar: creds.user)
+}.done { image in
+    self.imageView = image
+}.catch { error in
+  // All errors come here
+}
+`
+
+
