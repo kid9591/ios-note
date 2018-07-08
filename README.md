@@ -38,8 +38,8 @@
 * No `closure (nested closure)`, PromiseKit return `Promise` object wrapper with `then` `done` `finally` `ensure` `catch`
 ##### Example
 Without PromiseKit
-`
-login { creds, error in  
+
+login { creds, error in
     if let creds = creds {  
         fetch(avatar: creds.user) { image, error in  
             if let image = image {  
@@ -48,7 +48,7 @@ login { creds, error in
         }  
     }  
 }  
-`
+
 
 With PromiseKit
 `
