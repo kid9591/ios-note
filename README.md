@@ -39,11 +39,11 @@
 ##### Example
 Without PromiseKit
 
-login().then { creds in
-    fetch(avatar: creds.user)
-}.done { image in
-    self.imageView = image
-}
+login().then { creds in\
+    fetch(avatar: creds.user)\
+}.done { image in\
+    self.imageView = image\
+}\
 
 
 With PromiseKit
