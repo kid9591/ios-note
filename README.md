@@ -39,15 +39,15 @@
 ##### Example
 Without PromiseKit
 `
-login { creds, error in
-    if let creds = creds {
-        fetch(avatar: creds.user) { image, error in
-            if let image = image {
-                self.imageView = image
-            }
-        }
-    }
-}
+> login { creds, error in
+>    if let creds = creds {
+>        fetch(avatar: creds.user) { image, error in
+>            if let image = image {
+>                self.imageView = image
+>            }
+>        }
+>    }
+>}
 `
 
 With PromiseKit
