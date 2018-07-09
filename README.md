@@ -39,22 +39,23 @@
 ##### Example
 Without PromiseKit
 
+```
 login().then { creds in\
->fetch(avatar: creds.user)\
+  fetch(avatar: creds.user)\
 }.done { image in\
-    &nbsp;self.imageView = image\
+  self.imageView = image\
 }\
-
+```
 
 With PromiseKit
-`
+```swift
 login().then { creds in
-    &nbsp;fetch(avatar: creds.user)
+  fetch(avatar: creds.user)
 }.done { image in
-    &nbsp;self.imageView = image
+  self.imageView = image
 }.catch { error in
-  &nbsp;// All errors come here
+  // All errors come here
 }
-`
+```
 
 
