@@ -40,20 +40,20 @@
 Without PromiseKit
 
 login().then { creds in\
-    fetch(avatar: creds.user)\
+    &nbsp;fetch(avatar: creds.user)\
 }.done { image in\
-    self.imageView = image\
+    &nbsp;self.imageView = image\
 }\
 
 
 With PromiseKit
 `
 login().then { creds in
-    fetch(avatar: creds.user)
+    &nbsp;fetch(avatar: creds.user)
 }.done { image in
-    self.imageView = image
+    &nbsp;self.imageView = image
 }.catch { error in
-  // All errors come here
+  &nbsp;// All errors come here
 }
 `
 
