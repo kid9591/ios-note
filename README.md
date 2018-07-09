@@ -40,7 +40,7 @@
 Without PromiseKit
 
 login().then { creds in\
-    &nbsp;&nbsp;&nbsp;&nbsp;fetch(avatar: creds.user)\
+    + fetch(avatar: creds.user)\
 }.done { image in\
     &nbsp;self.imageView = image\
 }\
