@@ -1,4 +1,4 @@
-# ios-note
+# ios-note. ([syntax](https://help.github.com/articles/basic-writing-and-formatting-syntax/))
 
 ## Collect all the techniques, tips, tricks, documentation, etc for IOS development
 
@@ -7,6 +7,7 @@
 1. [Apple document](https://developer.apple.com/design/adaptivity/)
 1. [Tutorial from Raywenderlich](https://www.raywenderlich.com/162311/adaptive-layout-tutorial-ios-11-getting-started)
 1. [Shorter tutorial StackView from HackerNoon](https://www.raywenderlich.com/162311/adaptive-layout-tutorial-ios-11-getting-started)
+1. [Demo Project](https://github.com/kid9591/ios-note/tree/master/AdaptiveExample/AdaptiveElementsImplementingYourOwnAdaptiveDesignwithUIKit)
 
 #### Xcode tools
 * `Interface Builder`
@@ -39,12 +40,12 @@
 ##### Example
 Without PromiseKit
 
-```
-login().then { creds in\
-  fetch(avatar: creds.user)\
-}.done { image in\
-  self.imageView = image\
-}\
+```swift
+login().then { creds in
+  fetch(avatar: creds.user)
+}.done { image in
+  self.imageView = image
+}
 ```
 
 With PromiseKit
@@ -58,4 +59,6 @@ login().then { creds in
 }
 ```
 
-
+### 3. Xib/Storyboard quick initialization
+* [Explanation extension protocol](https://www.appcoda.com/protocols-in-swift/)
+* [Demo project]()
