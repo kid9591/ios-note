@@ -62,3 +62,32 @@ login().then { creds in
 ### 3. Xib/Storyboard quick initialization
 * [Explanation extension protocol](https://www.appcoda.com/protocols-in-swift/)
 * [Demo project](https://github.com/kid9591/ios-note/tree/master/InitViewOrVCPro/GetViewOrVCLikeAPro)
+
+### 4. Force screen orientation
+
+``` Objective C
+#pragma mark - Rotation
+
+- (BOOL)shouldAutorotate {
+    return YES;
+}
+
+- (UIInterfaceOrientationMask)supportedInterfaceOrientations
+{
+    return UIInterfaceOrientationMaskLandscape | UIInterfaceOrientationMaskPortrait;
+}
+
+- (void)viewWillAppear:(BOOL)animated {
+    [super viewWillAppear:animated];
+    self.title = @"Cockpit";
+    [[UIDevice currentDevice] setValue:
+     [NSNumber numberWithInteger:UIInterfaceOrientationLandscapeLeft] forKey:@"orientation"];
+}
+
+- (void)viewWillDisappear:(BOOL)animated {
+    [super viewDidDisappear:animated];
+    [[UIDevice currentDevice] setValue:
+     [NSNumber numberWithInteger:UIInterfaceOrientationPortrait] forKey:@"orientation"];
+}
+
+```
