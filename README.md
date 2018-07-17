@@ -41,10 +41,14 @@
 Without PromiseKit
 
 ```swift
-login().then { creds in
-  fetch(avatar: creds.user)
-}.done { image in
-  self.imageView = image
+login { creds, error in
+    if let creds = creds {
+        fetch(avatar: creds.user) { image, error in
+            if let image = image {
+                self.imageView = image
+            }
+        }
+    }
 }
 ```
 
