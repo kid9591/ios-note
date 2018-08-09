@@ -2,6 +2,10 @@
 
 ## Collect all the techniques, tips, tricks, documentation, etc for IOS development
 
+### 0. Apple developer account / program
+* [Choose Membership](https://developer.apple.com/support/compare-memberships/)
+* [Export In-house App (like Deploygate)](https://medium.com/wso2-iot/how-to-export-in-house-developed-ios-app-as-an-enterprise-application-dc087bdd64c3)
+
 ### 1. Make app adaptive (UI for iPhone, iPad, Apple Watch, Apple TV...)
 
 1. [Apple document](https://developer.apple.com/design/adaptivity/)
