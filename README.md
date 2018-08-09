@@ -3,6 +3,7 @@
 ## Collect all the techniques, tips, tricks, documentation, etc for IOS development
 
 ### 0. Apple developer account / program
+* [About Cer, Provision](https://blog.theodo.fr/2017/02/a-beginners-guide-to-ios-provisioning-profiles/)
 * [Choose Membership](https://developer.apple.com/support/compare-memberships/)
 * [Export In-house App (like Deploygate)](https://medium.com/wso2-iot/how-to-export-in-house-developed-ios-app-as-an-enterprise-application-dc087bdd64c3)
 
